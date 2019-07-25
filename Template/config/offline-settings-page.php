@@ -46,6 +46,6 @@
     <?= $this->hook->render('template:config:offline-settings-page', array('values' => $values, 'errors' => $errors)) ?>
 
     <div class="form-actions">
-        <button id="save" type="submit" class="btn btn-blue"><?= t('Save') ?></button>
+        <button type="submit" class="btn btn-blue"><?= t('Save') ?></button>
     </div>
 </form>
